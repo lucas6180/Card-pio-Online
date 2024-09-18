@@ -28,20 +28,21 @@
                     <h2>Login admin</h2>
                 </div>
                 <div class="data-collection">
-                    <fieldset>
-                        <div class="field-username">
-                            <label for="username">Usuário</label>
-                            <input id="username" name="username" type="text" required placeholder="Insira o seu nome de Usuário">
-                        </div>
-                        <div class="field-password">
-                            <label for="password">Senha</label>
-                            <input id="password" name="password" type="password" required placeholder="Insira a sua senha">
-                        </div>
-                    </fieldset>
-                    <span>Esqueceu a senha?</span>
+                    <div class="field-username">
+                        <label for="username">Usuário</label>
+                        <input id="username" name="username" type="text" required
+                            placeholder="Insira o seu nome de Usuário">
+                    </div>
+                    <div class="field-password">
+                        <label for="password">Senha</label>
+                        <input id="password" name="password" type="password" required placeholder="Insira a sua senha">
+                    </div>
                     <button id="submit" type="submit">Entrar</button>
-                    <p>Mantenha sua senha em segredo e não a compartilhe.</p>
-                </div>
+                    <div class="reveal-password closed-eye disable">
+                     
+                    </div>
+
+                    <p>Caso não tenha mais suas credencias, entre em <br> com os Programadores responsáveis.</p>
             </form>
         </section>
     </main>
@@ -56,9 +57,11 @@
             <div class="dev-footer">
                 <h2>Lucas Sales</h2>
                 <div class="redes-sociais">
-                    <a href="https://www.instagram.com/lucas.rsc_/" target="_blank"><img src="assets/icons8-instagram-100 (2).png" alt="instagram logo footer"></a>
+                    <a href="https://www.instagram.com/lucas.rsc_/" target="_blank"><img
+                            src="assets/icons8-instagram-100 (2).png" alt="instagram logo footer"></a>
 
-                    <a href="https://github.com/lucas6180" target="_blank"><img src="assets/icons8-github-100 (1).png" alt="github logo footer"></a>
+                    <a href="https://github.com/lucas6180" target="_blank"><img src="assets/icons8-github-100 (1).png"
+                            alt="github logo footer"></a>
 
                     <a href="https://www.linkedin.com/in/lucas-sales-a22007300/" target="_blank"><img
                             src="assets/icons8-linkedin-100 (1).png" alt="linkedin logo footer"></a>

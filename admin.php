@@ -28,17 +28,20 @@
                     <h2>Login admin</h2>
                 </div>
                 <div class="data-collection">
-                    <div class="field-username">
-                        <label for="username">Usuário</label>
-                        <input id="username" name="username" type="text" required placeholder="Insira o seu nome de Usuário">
-                    </div>
-                    <div class="field-password">
-                        <label for="password">Senha</label>
-                        <input id="password" name="password" type="password" required placeholder="Insira a sua senha">
-                    </div>
+                    <fieldset>
+                        <div class="field-username">
+                            <label for="username">Usuário</label>
+                            <input id="username" name="username" type="text" required placeholder="Insira o seu nome de Usuário">
+                        </div>
+                        <div class="field-password">
+                            <label for="password">Senha</label>
+                            <input id="password" name="password" type="password" required placeholder="Insira a sua senha">
+                        </div>
+                    </fieldset>
+                    <span>Esqueceu a senha?</span>
                     <button id="submit" type="submit">Entrar</button>
+                    <p>Mantenha sua senha em segredo e não a compartilhe.</p>
                 </div>
-                <p>Caso não tenha mais suas credencias, entre em <br> com os Programadores responsáveis.</p>
             </form>
         </section>
     </main>
